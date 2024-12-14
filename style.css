@@ -1,0 +1,279 @@
+*{
+     margin: 0%;
+     padding: 0%;
+     box-sizing: border-box;
+}
+html,body{
+     height: 100%;
+     width: 100%;
+}
+.master{
+     width: 100vw;
+     height: 100vh;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     background-color: #FFEFE2;
+}
+.master > .nav{
+     width: 100vw;
+     height: 8vh;
+     display: flex;
+     justify-content: space-between;
+     gap: 0.1rem;
+     align-items: center;
+     padding: 0rem 5rem;
+}
+.master > .nav > .logo{
+     display: flex;
+     gap: 0.5rem;
+     align-items: center;
+     flex-basis: 6vw;
+}
+
+.master > .nav >.logo>img{
+     width:3vw;
+}
+.master > .nav >.logo> h2{
+     font-size: 1.1rem;
+}
+.master > .nav >.icon {
+     display: flex;
+     align-items: center;
+     flex-basis: 30vw;
+     margin-right: 25rem;
+     padding: 1rem 3rem;
+     gap: 18%;
+     font-weight: 600;
+}
+.master > .nav >.icon > a{
+     text-decoration: none;
+     font-size: 1.1rem;
+     font-weight: 500;
+     color: black;
+}
+.master > .nav >.icon > a:hover{
+     text-decoration: underline;
+}
+.master > .nav >.search{
+     display: flex;
+     gap: 2rem;
+     align-items:center;
+     justify-content: space-between;
+     margin-right: 5rem;
+}
+.master > .nav > .search > div{
+     padding: 0.3rem 2rem;
+     background-color: white;
+     border-radius: 20rem;
+}
+.master > .nav > .search > div >i{
+    font-size: 1rem;
+   
+}
+.master > .nav > .search >i{
+     padding: 0.5rem;
+     border-radius: 50% 50% 50% 50%;
+     background-color: white;
+}
+
+.master>.page1{
+     width: 100vw;
+     height: 70vh;
+     display: flex;
+     justify-content: space-between;
+     gap: 2rem;
+     padding: 5rem 5rem;
+}
+.page1 >div{
+     width: 34vw;
+     height:50vh;
+}
+.page1 > .left> h1{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1;
+}
+.page1 > .left> p{
+     margin-top: 2rem;
+     font-size: 1rem;
+     font-weight: 100;
+     line-height: 1;
+ }
+ .page1 > .left> div{
+     margin-top: 2rem;
+     display: flex;
+     gap: 3%;
+ }
+ 
+ .page1 > .left> div>p{
+     font-size:2.8rem;
+     font-weight :700;
+     color: rgb(51, 50, 50);
+     line-height: 1;
+ }
+ 
+ .page1 > .left>div>button{
+     padding: .2rem 1.5rem;
+     border: none;
+     border-radius: 25rem;
+     background-color: white;
+     font-size: .8rem;
+     font-weight: 700;
+     text-align: center;
+
+ }
+ .page1 > .left>div>button:hover{
+     background-color:#FC9A22;
+
+ }
+ .page1 > .left>div>button >i:hover{
+     background-color: white;
+     color: #FC9A22;
+ }
+ .page1 > .left>div>button >i{
+     margin-left:2rem;
+     padding: 0.3rem;
+     border: 1px solid #FC9A22;
+     background-color: #FC9A22;
+     border-radius:25rem ;
+     color: white;
+     font-size: 1.3rem;
+ }
+ 
+.page1 > .middle{
+     width: 44.3vw;
+     height: 50vh;
+    
+}
+.page1 > .middle >div >img{
+     width: 25vw;
+     height: 55vh;
+     margin-top: 5rem;
+     object-fit:cover;
+     border-radius: 100%;
+     position: absolute;
+}
+.page1 > .middle > div > div{
+     width: 19vw;
+     height: 20vh;
+     margin-left: 5rem;
+     margin-top: -5rem;
+     padding: 2rem 0rem 6rem 1rem;;
+     background-color: white;
+     border-radius: 1rem;
+     position: relative;
+     left: 5rem;
+     top: 22rem;
+
+}
+.page1 > .middle > div > div >h1{
+     font-size: 1.2rem;
+     line-height: 2;
+     font-weight: 700;
+}
+.page1 > .middle > div > div >p{
+     font-size: 1rem;
+     line-height: 1;
+     font-weight: 300;
+}
+.page1 >.middle >img{
+     width: 15rem;
+     position: relative;
+     top: -10rem;
+     left: 5rem;
+}
+.page1 >.middle >.a{
+     width: 20rem;
+     position: relative;
+     top: -22rem;
+     left:-0.1rem;
+}
+.page1 > .right{
+     width: 28vw;
+     height: 50vh;
+}
+.page1 > .right >div>div >h1{
+     font-size: 1.5rem;
+     font-weight: 500;
+     line-height: 1.5;
+}
+.page1 > .right >div>div >p{
+     font-size: 0.8rem;
+     font-weight: 200;
+}
+.master>.page2{
+     width: 100vw;
+     height: 50vw;
+     /* padding: 5rem 5rem; */
+     position: absolute;
+     background-color: #FFEFE2;
+}
+.master>.page2 > .top {
+     width: 100vw;
+     display: flex;
+     justify-content: center;
+     gap: -15%;
+     margin: 0rem 2rem 2rem 2rem;
+     position: relative;
+     top: 18%;
+     right: 5%;
+     
+
+}
+.master>.page2 > .top >div{
+     width: 20.5vw;
+     height: 25vh;
+}
+.master>.page2 > .top >div >img{
+     width: 25vw;
+     height: 20vh;
+     object-fit: contain;
+}
+
+.master > .page2> .bottom{
+     width: 70vw;
+     height: 30vh;
+     margin: 2rem 13rem;
+     border-radius: 2rem 2rem 2rem 2rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10%;
+     background-color: #3F302B;
+    
+}
+.master > .page2>.bottom > .one>img{
+     width: 11vw;
+     height: 23vh;
+     margin-top: -11rem;
+     object-fit:cover;
+     border-radius: 100%;
+}
+.master > .page2>.bottom > .two >img{
+     width: 15vw;
+     height: 30vh;
+     margin-top: -11rem;
+     object-fit:cover;
+     border-radius: 100%;
+}
+.master > .page2>.bottom > .three>img{
+     width: 11vw;
+     height: 23vh;
+     margin-top: -9rem;
+     object-fit:cover;
+     border-radius: 100%;
+    
+}
+
+.master > .page2>.bottom > div > div{
+     text-align: center;
+     margin-top: 3%;
+}
+.master > .page2>.bottom > div > div>h4{
+     font-size: 1.2rem;
+     color: white;
+     line-height: 2;
+}
+.master > .page2>.bottom > div > div>p{
+     font-size: 0.8rem;
+     color: white;
+}
